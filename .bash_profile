@@ -57,5 +57,5 @@ export NETLIFY_HOME=$HOME/netlify
 export NETLIFY_API_SRC=$NETLIFY_HOME/bitballoon
 export NETLIFY_UI_SRC=$NETLIFY_HOME/netlify-react-ui
 
-# Use RVM
-source /Users/irene/.rvm/scripts/rvm
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
