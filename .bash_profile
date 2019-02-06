@@ -52,3 +52,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Netlify bootstrap
+export NETLIFY_HOME=$HOME/netlify 
+export NETLIFY_API_SRC=$NETLIFY_HOME/bitballoon
+export NETLIFY_UI_SRC=$NETLIFY_HOME/netlify-react-ui
